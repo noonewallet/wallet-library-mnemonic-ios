@@ -75,6 +75,20 @@ end
 
 ```
 
+## RBG NIST SP 800-22
+
+For testing generation quality you can install and run NIST SP 800-22 software. Execute following script:
+
+```
+sh path/to/WalletLibMnemonic/WalletLibMnemonicTests/RbgNistSP800-22/Install_RbgNistSP800_22.sh
+
+```
+run xctest
+
+[RbgNistSP800_22](WalletLibMnemonicTests/RbgNistSP800-22/RbgNistSP800-22.swift)
+
+after the data is generated run the executable file 'RbgNistSP800-22/rbg/assess'
+
 ## License
 
 MIT. See the [_LICENSE_](LICENSE) file for more info.
