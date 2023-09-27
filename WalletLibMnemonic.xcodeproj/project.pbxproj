@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75503BE82AC46D0400AC6DBE /* RbgNistSP800-22.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75503BE72AC46D0400AC6DBE /* RbgNistSP800-22.swift */; };
 		75AAF28D296DDC3800FDC626 /* WalletLibMnemonic.docc in Sources */ = {isa = PBXBuildFile; fileRef = 75AAF28C296DDC3800FDC626 /* WalletLibMnemonic.docc */; };
 		75AAF293296DDC3800FDC626 /* WalletLibMnemonic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75AAF288296DDC3800FDC626 /* WalletLibMnemonic.framework */; };
 		75AAF299296DDC3800FDC626 /* WalletLibMnemonic.h in Headers */ = {isa = PBXBuildFile; fileRef = 75AAF28B296DDC3800FDC626 /* WalletLibMnemonic.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75503BE72AC46D0400AC6DBE /* RbgNistSP800-22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RbgNistSP800-22.swift"; sourceTree = "<group>"; };
+		75503BE92AC46DE200AC6DBE /* Install_RbgNistSP800_22.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Install_RbgNistSP800_22.sh; sourceTree = "<group>"; };
 		75AAF288296DDC3800FDC626 /* WalletLibMnemonic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WalletLibMnemonic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75AAF28B296DDC3800FDC626 /* WalletLibMnemonic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalletLibMnemonic.h; sourceTree = "<group>"; };
 		75AAF28C296DDC3800FDC626 /* WalletLibMnemonic.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = WalletLibMnemonic.docc; sourceTree = "<group>"; };
@@ -62,6 +65,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75503BE62AC46CB100AC6DBE /* RbgNistSP800-22 */ = {
+			isa = PBXGroup;
+			children = (
+				75503BE72AC46D0400AC6DBE /* RbgNistSP800-22.swift */,
+				75503BE92AC46DE200AC6DBE /* Install_RbgNistSP800_22.sh */,
+			);
+			path = "RbgNistSP800-22";
+			sourceTree = "<group>";
+		};
 		75AAF27E296DDC3800FDC626 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +107,7 @@
 		75AAF296296DDC3800FDC626 /* WalletLibMnemonicTests */ = {
 			isa = PBXGroup;
 			children = (
+				75503BE62AC46CB100AC6DBE /* RbgNistSP800-22 */,
 				75AAF2AF296EB98500FDC626 /* MnemonicTest.swift */,
 				75AAF2B3296EBA0B00FDC626 /* MnemonicTestVector.swift */,
 			);
@@ -250,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75503BE82AC46D0400AC6DBE /* RbgNistSP800-22.swift in Sources */,
 				75AAF2B4296EBA0B00FDC626 /* MnemonicTestVector.swift in Sources */,
 				75AAF2B0296EB98500FDC626 /* MnemonicTest.swift in Sources */,
 			);
